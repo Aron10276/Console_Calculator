@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdlib.h>
-#include "arithmetic.h"
+#include "arithmetic.hpp"
 //using namespace get;
 
 std::string basicCalc() {

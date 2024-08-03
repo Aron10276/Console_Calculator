@@ -1,5 +1,5 @@
 #include <iostream>
-#include <arithmetic.h>
+#include <arithmetic.hpp>
 
 
 
