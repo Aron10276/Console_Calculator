@@ -18,18 +18,21 @@
     <ClCompile Include="Calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Extension.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="arithmetic.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometric.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arithmetic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="extrashit.hpp">
+    <ClInclude Include="Others.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometric.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

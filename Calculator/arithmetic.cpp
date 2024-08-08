@@ -1,7 +1,7 @@
 #include <iostream>
-#include <stdlib.h>
 #include "arithmetic.hpp"
-//using namespace get;
+
+using namespace get;
 
 std::string basicCalc() {
     std::string word{ "basics" };

@@ -107,7 +107,7 @@
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <TreatWarningAsError>true</TreatWarningAsError>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\source\repos\Calculator\Calculator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Documents\Adv_Header&amp;Libs;C:\Users\Administrator\source\repos\Calculator\Calculator;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,12 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="arithmetic.cpp" />
-    <ClCompile Include="Extension.cpp" />
+    <ClCompile Include="Geometric.cpp" />
     <ClCompile Include="Calculator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arithmetic.hpp" />
-    <ClInclude Include="extrashit.hpp" />
+    <ClInclude Include="Geometric.hpp" />
+    <ClInclude Include="Others.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
