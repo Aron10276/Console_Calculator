@@ -72,19 +72,22 @@ std::string geoCalc() {
     }
 
     void operate::exit() {
-        std::cout << "\ndo you want to exit?\n" << "Yes or No?\n" << ": ";
-        if (get::string() == "No") {
-            operate::cases(get::num(basicCalc()));
+        using namespace std;
+        cout << "\ndo you want to exit?\n" << "Yes or No?\n" << ": ";
+            if (get::string() == "No")
+            {
+                cout << endl << endl;
+                operate::cases(get::num(basicCalc()));
+            }
+            else
+            {
+                std::cout << "exited";
+            }
+
         }
 
-        //discontinued, as program close after out bound input on anything
-        //so let type "Yes" string on program after the task
-        #if 0
-        else if (get::string() == "Yes") {           
-            //abort();
-        }
-        #endif
-    }
+        
+    
 
     std::string get::string() {
         std::string word{""};

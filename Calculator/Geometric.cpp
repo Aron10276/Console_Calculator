@@ -3,12 +3,12 @@
 #include "arithmetic.hpp"
 #include <advanced.hpp>
 
-static float radius(float value) {
+float radius(float blank) {
 
-
+	return blank;
 }
 
-float getCircle() {
+float getCircle(float blank) {
 
-
+	return blank;
 }
