@@ -4,7 +4,7 @@
 using namespace get;
 
 std::string basicCalc() {
-    std::string word{ "basics" };
+    std::string word = "basics";
     return word;
 }
 
