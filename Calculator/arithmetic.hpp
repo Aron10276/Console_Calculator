@@ -1,6 +1,6 @@
 #ifndef ARITHMETIC
 #define ARITHMETIC
-#include "Geometric.hpp"
+#include "Geometric.h"
 
 namespace BASIC {
 ARITHMETIC_CALCULATOR()
