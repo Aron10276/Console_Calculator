@@ -1,8 +1,11 @@
 #include <iostream>
 #include <arithmetic.hpp>
 
-int main(void) {
-    operate::cases(get::num(basicCalc()));
+int main() {
+    BASIC::ARITHMETIC_CALCULATOR();
+
+
+
 }
 
 
