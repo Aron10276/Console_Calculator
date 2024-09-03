@@ -3,7 +3,7 @@
 
 float getValue(){
     float val{ };
-    std::cin << val;
+    std::cin >> val;
     return val;
 }
 
@@ -11,22 +11,13 @@ int main() {
     std::cout << "choose your operation: '+', '-', '*', '%'";
     char option{ };
     std::cin >> option;
-    switch (option)
-        {
-        case '+': float addFirst{ getValue() };
+
+    if (option == '+'){
+                  float addFirst{ getValue() };
                   std::cout << " + ";
                   float addSecond{ getValue() };
                   std::cout << "\n" << "The sum is: " << addFirst + addSecond;
-        case '-':
-           
-            
-        case '*':
-            
-            
-        case '%':
-            
-            
-        }
+       }
 }
 
 
