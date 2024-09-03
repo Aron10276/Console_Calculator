@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-void ARITHMETIC_CALCULATOR() {
+void BASIC::ARITHMETIC_CALCULATOR() {
     std::cout << "choose your operation: '+', '-', '*', '%' \n" << "choose: ";
     char option{ };
     std::cin >> option;
